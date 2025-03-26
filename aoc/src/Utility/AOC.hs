@@ -47,7 +47,11 @@ module Utility.AOC (
     -- * Miscellaneous
     range,
     rangeIntersect,
-    binToDec
+    binToDec,
+    -- Export types/constraints used in top-level function type signatures
+    Hashable,
+    HM.HashMap,
+    S.Set
 ) where
 
 import qualified Data.HashMap.Strict as HM
